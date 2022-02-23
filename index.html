@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="js/dot.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__left">
+                <div class="header__logo">
+                    <a class="logo" href="#"></a>
+                </div>
+
+                <div class="header__delivery">
+                    <a class="btn btn_color_white header__deliveryButton" href="#">
+                        <span class="header__deliveryIcon"></span>
+                        <span class="text text_secondary">Delivery to</span><br>
+                        <span class="text text_main">Ukraine</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__center">
+                <div class="header__search">
+                    <div class="inputSearch">
+                        <select class="inputSearch__select">
+                            <option selected="selected">Computers &amp; Tablets</option>
+                            <option>All Departments</option>
+                            <option>Arts &amp; Crafts</option>
+                            <option>Automotive</option>
+                            <option>Baby</option>
+                            <option>Beauty &amp; Personal Care</option>
+                            <option>Books</option>
+                            <option>Boys' Fashion</option>
+                            <option>Computers</option>
+                            <option>Deals</option>
+                            <option>Digital Music</option>
+                            <option>Electronics</option>
+                            <option>Girls' Fashion</option>
+                        </select>
+                        <input class="inputSearch__field" placeholder="search...">
+                        <span class="inputSearch__searchButton"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__right">
+                <div class="header__language">
+                    <img class="header__languageIcon" src="img/usa.png">
+                    <div class="arrowDownIcon"></div>
+                </div>
+
+                <div class="header__account">
+                    <a class="btn btn_color_white header__accountButton" href="#">
+                        <span class="text text_secondary">Hello, Sign in</span><br>
+                        <span class="text text_main">Account & Lists  </span>
+                    </a>
+                </div>
+
+                <div class="header__orders">
+                    <a class="btn btn_color_white header__ordersButton" href="#">
+                        <span class="text text_secondary">Returns</span><br>
+                        <span class="text text_main">& Orders</span>
+                    </a>
+                </div>
+
+                <div class="header__cart">
+                    <a class="btn btn_color_white header__cartButton" href="#">
+                        <div class="header__cartIcon"></div>
+                        <span class="text text_inCart">0</span>
+                        <span class="text text_main">Cart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="navigation">
+        <div class="navigation__wrapper">
+            <div class="btn btn_border burger"></div>
+            <ul class="list navigation__list"></ul>
+        </div>
+    </div>
+
+    <div class="results">
+        <div class="results__wrapper">
+            <p class="text text_secondary">1-24 of over 5,000 results</p>
+            <select class="results__select">
+                <option selected="selected">Featured</option>
+                <option>Books</option>
+                <option>Computers</option>
+                <option>Deals</option>
+                <option>Digital Music</option>
+                <option>Electronics</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="tabletNavigation">
+        <div class="navigation__wrapper">
+            <div class="btn btn_border burger"></div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="sidebarMenu">
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Climate Pledge Friendly</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">Climate Pledge Friendly</label>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Department</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange">
+                        <span class="text text_secondary">Computers</span>
+                    </a>
+                </li>
+
+                <ul class="list list_with_padding">
+                    <li class="list__item">
+                        <p class="text text_main">Computers & Tablets</p>
+                    </li>
+                    <li class="list__item">
+                        <a class="btn btn_color_black btn_hover_orange">
+                            <span class="text text_secondary">Desktops</span>
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="btn btn_color_black btn_hover_orange">
+                            <span class="text text_secondary">Laptops</span>
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="btn btn_color_black btn_hover_orange">
+                            <span class="text text_secondary">Tablets</span>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Avg. Customer Review</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange list__rate" href="#">
+                        <div class="rate rate_four"></div>
+                        <span class="text text_secondary">& Up</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange list__rate" href="#">
+                        <div class="rate rate_three"></div>
+                        <span class="text text_secondary">& Up</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange list__rate" href="#">
+                        <div class="rate rate_two"></div>
+                        <span class="text text_secondary">& Up</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange list__rate" href="#">
+                        <div class="rate rate_one"></div>
+                        <span class="text text_secondary">& Up</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Featured Brands</p>
+                </li>
+
+                <ul class="list list__brands"></ul>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Price</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">Under $25</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">$25 to $50</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">$50 to $100</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">$100 to $200</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">$200 & Above</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <div class="list__priceForm">
+                        <input class="input input_price_min" type="text" placeholder="min price">
+                        <input class="input input_price_max" type="text" placeholder="max price">
+                        <div class="btn btn_go">Go</div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Deals & Discounts</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">All Discounts</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">Today's Deals</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">New & Upcoming</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">New Arrivals</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">Coming Soon</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Certifications</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">Energy Star</label>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Amazon Global Store</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">Amazon Global Store</label>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Condition</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">New</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">Renewed</span>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <span class="text text_secondary">Used</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Seller</p>
+                </li>
+
+                <ul class="list list__seller"></ul>
+            </ul>
+
+            <ul class="list">
+                <li class="list__item">
+                    <p class="text text_main">Availability</p>
+                </li>
+                <li class="list__item">
+                    <a class="btn btn_color_black btn_hover_orange" href="#">
+                        <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">Include Out of Stock</label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contentContainer">
+            <div class="contentContainer__main">
+                <h2 class="title title_main">RESULTS</h2>
+
+                <ul class="list contentContainer__products"></ul>
+            </div>
+
+            <div class="contentContainer__pagination">
+                <div class="paginationOfPages">
+                    <div class="btn paginationOfPages__item">previous</div>
+                    <div class="btn paginationOfPages__item paginationOfPages__item_active">1</div>
+                    <div class="btn paginationOfPages__item">2</div>
+                    <div class="btn paginationOfPages__item">3</div>
+                    <div class="btn paginationOfPages__item">...</div>
+                    <div class="btn paginationOfPages__item">238</div>
+                    <div class="btn paginationOfPages__item">next</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="productCarousel">
+        <div class="productCarousel__container">
+            <a class="btn btn_prev" href="#"></a>
+            <a class="btn btn_next" href="#"></a>
+            <h2 class="title title_main">Inspired by your browsing history</h2>
+
+            <ul class="list productCarousel__wrapper"></ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a class="btn btn_color_white footer__backToTop" href="#">
+            <p class="text text_secondary">Back to top</p>
+        </a>
+
+        <div class="footer__actions">
+            <ul class="list footer__actionsWrapper">
+                <li class="list__item list__item_columns">
+                    <p class="text text_main text_color_white">Availability</p>
+                    <ul class="list footer__footerAvailability"></ul>
+                </li>
+                <li class="list__item list__item_columns">
+                    <p class="text text_main text_color_white">Make Money with Us</p>
+                    <ul class="list footer__footerAvailability"></ul>
+                </li>
+                <li class="list__item list__item_columns">
+                    <p class="text text_main text_color_white">Amazon Payment Products</p>
+                    <ul class="list footer__footerAvailability"></ul>
+                </li>
+                <li class="list__item list__item_columns">
+                    <p class="text text_main text_color_white">Let Us Help You</p>
+                    <ul class="list footer__footerAvailability"></ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__logo">
+            <a class="logo" href="#"></a>
+        </div>
+    </footer>
+
+    <script type="text/template" id="productsCarousel-template">
+        {{~ it.productsCarousel :product:index}}
+            <li class="list__item list__item_lines">
+                <div class="tile">
+                    <a class="tile__imgWrapper" href="productPage.html">
+                        <img class="tile__img" src="{{=product.img}}">
+                    </a>
+
+                    <h3 class="title title_secondary tile__title">
+                        <a class="btn btn_color_black btn_hover_orange" href="productPage.html">{{=product.title}}</a>
+                    </h3>
+
+                    <a class="btn btn_color_blue btn_hover_orange tile__rate" href="#">
+                        <div class="rate rate_four"></div>
+                        <div class="arrowDownIcon"></div>
+                        <span class="text text_main">{{=product.rate}}</span>
+                    </a>
+
+                    <div class="tile__prices">
+                        <span class="tile__price tile__price_new"><sup>$</sup>{{=product.newPrice}}<sup>{{=product.newPriceCoins}}</sup></span>
+                        <span class="tile__price tile__price_old">${{=product.oldPrice}}</span>
+                    </div>
+                </div>
+            </li>
+        {{~}}
+    </script>
+
+    <script type="text/template" id="footerAvailability-template">
+        {{~ it.availability :availability:index}}
+            <li class="list__item list__item_margin">
+                <a class="link link_color_white link_main" href="#">{{=availability.name}}</a>
+            </li>
+        {{~}}
+    </script>
+
+    <script type="text/template" id="products-template">
+        {{~ it.products :product:index}}
+            <li class="list__item list__item_columns">
+                <div class="tile">
+                    <a class="tile__imgWrapper" href="productPage.html">
+                        <img class="tile__img" src="{{=product.img}}">
+                    </a>
+
+                    <h3 class="title title_secondary tile__title">
+                        <a class="btn btn_color_black btn_hover_orange" href="productPage.html">{{=product.title}}</a>
+                    </h3>
+
+                    <a class="btn btn_color_blue btn_hover_orange tile__rate" href="#">
+                        <div class="rate rate_four"></div>
+                        <div class="arrowDownIcon"></div>
+                        <span class="text text_main">{{=product.rate}}</span>
+                    </a>
+
+                    <div class="tile__prices">
+                        <span class="tile__price tile__price_new"><sup>$</sup>{{=product.newPrice}}<sup>{{=product.newPriceCoins}}</sup></span>
+                        <span class="tile__price tile__price_old">${{=product.oldPrice}}</span>
+                    </div>
+
+                    <div class="tile__delivery">
+                        <p class="text text_secondary">Ships to Ukraine</p>
+                    </div>
+
+                    {{? product.left}}
+                        <div class="tile__counterProduct">
+                            <p class="text text_secondary">Only {{=product.left}} left in stock - order soon.</p>
+                        </div>
+                    {{?}}
+
+                    <div class="tile__offer">
+                        <p class="text text_main tile__offerTitle">More Buying Choices</p>
+                        <div class="tile__offerWrapper">
+                            <span class="tile__price tile__price_offer">${{=product.offerPrice}}</span>
+                            <a class="btn btn_color_blue btn_hover_orange">({{=product.counterOffers}} new offers)</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        {{~}}
+    </script>
+
+    <script type="text/template" id="navigation-template">
+        {{~ it.navigation :navigation:index}}
+            <li class="list__item">
+                <a class="btn btn_color_white btn_border" href="#">{{=navigation.name}}</a>
+            </li>
+        {{~}}
+    </script>
+
+    <script type="text/template" id="brands-template">
+        {{~ it.brands :brand:index}}
+            <li class="list__item">
+                <a class="btn btn_color_black btn_hover_orange" href="#">
+                    <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">{{=brand.name}}</label>
+                </a>
+            </li>
+        {{~}}
+    </script>
+
+    <script type="text/template" id="sellers-template">
+        {{~ it.sellers :seller:index}}
+            <li class="list__item">
+                <a class="btn btn_color_black btn_hover_orange" href="#">
+                    <label class="text text_secondary list__label"><input class="list__checkbox" type="checkbox">{{=seller.name}}</label>
+                </a>
+            </li>
+        {{~}}
+    </script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
