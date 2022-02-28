@@ -303,10 +303,3 @@ $('.list__seller').html(doT.template($('#sellers-template').html())({sellers: se
 $('.contentContainer__products').html(doT.template($('#products-template').html())({products: products}));
 $('.footer__footerAvailability').html(doT.template($('#footerAvailability-template').html())({availability: availability}));
 $('.productCarousel__wrapper').html(doT.template($('#productsCarousel-template').html())({productsCarousel: productsCarousel}));
-
-// $('.fn-list').on('click', function(e) {
-//     if (e.target.className === 'link link_color_white list__link') {
-//         $('.fn-list .isActive').removeClass('isActive');
-//         $(e.target).parent().addClass('isActive');
-//     }
-// });

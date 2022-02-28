@@ -123,6 +123,10 @@ sup {
     margin: 0 5px;
 }
 
+.btn_border_grey:hover {
+    outline: 1px solid #b4b4b4;
+}
+
 .btn_border:hover {
     outline: 1px solid #fff;
 }
@@ -404,7 +408,7 @@ sup {
 }
 
 .list__checkbox {
-    width: 20px;
+    min-width: 20px;
     height: 20px;
 }
 
@@ -646,6 +650,7 @@ sup {
 .wayFinding__list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutProduct__wrapper {
@@ -842,6 +847,28 @@ sup {
     .list__item_lines {
         width: 25%;
     }
+
+    .aboutProduct__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .aboutProduct__icons {
+        width: 5%;
+    }
+
+    .aboutProduct__images {
+        width: 95%;
+    }
+
+    .aboutProduct__description,
+    .aboutProduct__buyBox {
+        width: 50%;
+    }
+
+    .slider__slide {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -867,6 +894,24 @@ sup {
     .list__item_lines {
         width: 49%;
     }
+
+    .slider__indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    .aboutProduct__icons {
+        width: 10%;
+    }
+
+    .aboutProduct__images {
+        width: 90%;
+    }
+
+    .aboutProduct__description,
+    .aboutProduct__buyBox {
+        width: 100%;
+    }
 }
 
 @media (max-width: 567px) {
@@ -886,5 +931,13 @@ sup {
     .list__item_lines,
     .list__item_columns {
         width: 100%;
+    }
+
+    .aboutProduct__icons {
+        width: 15%;
+    }
+
+    .aboutProduct__images {
+        width: 85%;
     }
 }
